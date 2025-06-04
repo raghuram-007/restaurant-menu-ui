@@ -1,0 +1,103 @@
+
+        div{
+            width: 450px;
+            height: 450px;
+            background-color: indigo;
+            color: white;
+            font-size: 30px;
+            border-radius: 30px;
+            padding: 30px;
+            border-style: ridge ;
+            border: 40px solid ;
+            border-color:darkgoldenrod;
+            box-shadow: 0px 0px 80px dodgerblue;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        
+            
+        }
+        div:hover{
+            background-color:teal;
+            box-shadow: 0px 0px 80px gold;
+            transform: translateY(-5px);
+            
+      
+        }
+       
+        body{
+                background-image: url(aaa1.avif);
+                background-repeat: no-repeat;
+                background-size:cover;
+            }
+        .mrg{
+            position: relative;
+            left: 30px;
+    
+        }
+        .mrg:hover{
+            border-style: ridge ;
+            border: 40px solid ;
+            border-color: firebrick;
+        }
+        .afternoon{
+            position: relative;
+            left: 650px;
+        }
+    
+        .afternoon:hover{
+        border-style: ridge ;
+            border: 40px solid ;
+            border-color: firebrick;}
+        .night{
+           
+            position: relative;
+            top: 10px;
+            left: 30px;
+        }
+        .night:hover{
+        border-style: ridge ;
+            border: 40px solid ;
+            border-color: firebrick;}
+            h3{
+                display: inline;
+               
+            }
+            .rs{
+                position: relative;
+                left: 130px;
+            }
+           
+@media (max-width: 768px) {
+    body {
+        background-attachment: fixed;
+    }
+    
+    div {
+        width: 85% !important;
+        height: auto !important;
+        margin: 20px auto !important;
+        padding: 20px !important;
+        position: static !important;
+        left: 0 !important;
+        box-sizing: border-box;
+    }
+    
+    .mrg, .afternoon, .night {
+        left: 0 !important;
+        top: 0 !important;
+    }
+    
+    h3.rs {
+        left: 50px !important;
+    }
+    
+    ul, ol {
+        padding-left: 20px;
+    }
+    
+    li {
+        font-size: 24px !important;
+        margin-bottom: 10px;
+        white-space: normal !important;
+    }
+}
+    
